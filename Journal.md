@@ -1,3 +1,14 @@
+---
+Title: "custom mercedes themed keyboard"
+Author: "Aaruno"
+Description: "Custom keyboard"
+created_at: "2025-07-10"
+Total time spent: 21
+---
+
+
+
+
 ## 6 July 2025 – 3 Hours
 After weeks of dreaming, tonight I finally began working on my own keyboard one that would scream speed and personality. I wanted something more than just function; I wanted emotion. I call it the Mercboard, inspired by the Mercedes-AMG Petronas Formula 1 team. The idea is to blend clean circuitry with motorsport chaos  a PCB that not only works flawlessly but also looks like it's ready to hit the track. I started the layout on paper, roughly planning a 65-key matrix and listing the components I’d need. The ATmega32U4 was a no-brainer for its USB HID capability. With chai in one hand and a pencil in the other, I sketched the beginnings of what might become my fastest creation yet. The session lasted a little over three hours, and by the end, the name Mercboard had officially entered my notebook and my heart.
 
@@ -8,7 +19,7 @@ After weeks of dreaming, tonight I finally began working on my own keyboard one 
 
 
 
-## 7 July 2025 – 4 hours
+## 7 July 2025 – 6-7 hours
 I sat down today with full focus to begin designing the schematic, and this time I was in flow. Using Eagle, I built out a 5x14 key matrix, carefully positioning every switch symbol like setting up components on a race car. The ATmega32U4 took the spotlight, and I began wiring it to each row and column with attention to current paths and layout clarity. Added decoupling capacitors, pull-down resistors, a USB mini connector, and a reset switch. For diode selection, I stuck to 1N4148s—reliable and easily sourced. The logic came together slowly but cleanly over nearly five hours. Cross-referencing every wire, I started imagining how the PCB would look. There was this quiet excitement, as if every net connected brought the board closer to life. When I finally hit "save," it felt like the electrical soul of the Mercboard was finally assembled and humming quietly on-screen.
 
 ![image](https://github.com/user-attachments/assets/3d76cd87-9b9d-41a6-8a18-bf0635fbbbea)
@@ -18,7 +29,7 @@ I sat down today with full focus to begin designing the schematic, and this time
 
 
 
-## 8 July 2025 – 4-5 hours
+## 8 July 2025 – 6 hours
 Today was all about PCB art and trace routing. I imported the schematic and began laying out the board—every key switch placed with care like tires on a grid. But the real challenge was fitting in the image of the Mercedes-AMG F1 car into the silkscreen. I converted it into a usable vector format and brought it into the board editor, layer by layer. It wasn't just drag and drop—I had to shape traces, shift diodes, and reroute paths so they would dance around the car’s body without ruining the electrical performance. The car looks like it's racing across the key switches now. Routing the matrix in such a way that it didn't destroy the artwork took close to seven hours. I didn’t even realise when night turned into early morning. The board is starting to feel like more than a PCB—it is becoming a tribute to both design and discipline.
 
 ![image](https://github.com/user-attachments/assets/a8320661-8a33-492c-9f13-49e95a67cb1e)
