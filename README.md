@@ -36,13 +36,13 @@ The schematic was carefully drawn in EasyEDA Pro, ensuring that all passive comp
 | **Diodes**         | 1N4148 THT or SMD                       | 70       | Shaarvi      | ₹1.40                | ₹98.00          | \$0.017              | \$1.19          |
 | **Reset Button**   | Tactile Button 6mm                      | 1        | Shaarvi      | ₹6.00                | ₹6.00           | \$0.07               | \$0.07          |
 | **OLED Display**   | 0.91" I²C OLED (SSD1306, 128×32, 4-pin) | 1        |  Amazon.in  | ₹190.00              | ₹190.00         | \$2.28               | \$2.28          |
-| **Cable**          | USB-A to USB Micro braided (1.5m)       | 1        | Amazon.in            | ₹225.00              | ₹225.00         | \$2.70               | \$2.70          |
+
 
 
 | **Currency** | **Total**      |
 | ------------ | -------------- |
 | INR          | ₹10,860.00     |
-| USD          | **\$129.93**  |
+| USD          | **\$127.93**  |
 
 
 
