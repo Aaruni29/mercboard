@@ -19,6 +19,32 @@ The schematic was carefully drawn in EasyEDA Pro, ensuring that all passive comp
 
 <img width="770" height="525" alt="Screenshot 2025-07-10 154530" src="https://github.com/user-attachments/assets/f5363ecd-122c-491b-8279-057a67d0031d" />
 
+## BOM
+
+
+| **Component**      | **Description**                         | **Qty**  | **Source**           | **Unit Price (INR)** | **Total (INR)** | **Unit Price (USD)** | **Total (USD)** |
+| ------------------ | --------------------------------------- | -------- | -------------------- | -------------------- | --------------- | -------------------- | --------------- |
+| **PCB**            | Custom PCB (Black, 1.6mm, HASL)         | 5        | JLCPCB               | ₹285.00              | ₹1425.00        | \$3.42               | \$17.10         |
+| **PCBA**           | SMT Passive Assembly (Top side only)    | 2        | JLCPCB               | ₹905.00              | ₹1810.00        | \$5.42               | \$10.84         |
+| **Shipping**       | JLCPCB Express Discounted (1.85kg)      | 1        | JLCPCB               | ₹2300.00             | ₹2300.00        | \$27.67              | \$27.67         |
+| **MCU**            | ATmega32U4-AU (TQFP-44)                 | 2        | Shaarvi    | ₹320.00              | ₹640.00         | \$3.85               | \$7.70          |
+| **Crystal**        | 16 MHz Crystal (SMD 3225)               | 2        |  LCSC       | ₹18.00               | ₹36.00          | \$0.22               | \$0.44          |
+| **Caps/Resistors** | Supporting RLC (caps, pullups, etc.)    | Full set |  LCSC          | ₹90.00               | ₹90.00          | \$1.08               | \$1.08          |
+| **USB Port**       | USB Micro-B Female (SMD)                | 2        | LCSC / JLCPCB PCBA   | ₹25.00               | ₹50.00          | \$0.30               | \$0.60          |
+| **Switches**       | Gateron Yellow clones (budget)          | 65       | Meckeys | ₹20.00               | ₹1300.00        | \$0.24               | \$15.60         |
+| **Keycaps**        | PBT 65% Keyset (OEM, non-backlit)       | 1 set    | NeoMacro | ₹1290.00             | ₹1290.00        | \$15.30              | \$15.30         |
+| **Diodes**         | 1N4148 THT or SMD                       | 70       | Shaarvi      | ₹1.40                | ₹98.00          | \$0.017              | \$1.19          |
+| **Reset Button**   | Tactile Button 6mm                      | 1        | Shaarvi      | ₹6.00                | ₹6.00           | \$0.07               | \$0.07          |
+| **OLED Display**   | 0.91" I²C OLED (SSD1306, 128×32, 4-pin) | 1        |  Amazon.in  | ₹190.00              | ₹190.00         | \$2.28               | \$2.28          |
+| **Cable**          | USB-A to USB Micro braided (1.5m)       | 1        | Amazon.in            | ₹225.00              | ₹225.00         | \$2.70               | \$2.70          |
+
+
+| **Currency** | **Total**      |
+| ------------ | -------------- |
+| INR          | ₹10,860.00     |
+| USD          | **\$129.93**  |
+
+
 
 The PCB design was where the real personality of the project took shape. Components were placed not only for electrical convenience but also to work around the space needed for the silkscreen art. The F1 car artwork was vectorized and then imported into the silkscreen layer manually, using EasyEDA’s graphical editing tools. Every trace was routed with care, avoiding any clash with the visual elements of the car. Unlike automated designs, this board was routed completely by hand. Tracks were nudged millimeter by millimeter, vias repositioned, and layers tweaked so the art and the circuit could live together in harmony.
 
